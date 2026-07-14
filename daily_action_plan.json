@@ -1,346 +1,554 @@
 {
-  "action_plans": {
-    "week_1": [
-      {
-        "day_id": "Day 2",
-        "action_plan": {
-          "title": "Day 2 - Execution Plan[cite: 12]",
-          "recap": [
-            "Confirmed: AI Lead Response System - Demo is live and working. Google Form -> Gemini (text prompt) -> Gmail send[cite: 12]"
-          ],
-          "top_mits": [
-            {
-              "name": "MIT 1 - Finish the Make Scenario[cite: 12]",
-              "description": "Core flow works. Today = harden it (error handling, edge cases) and package it as a demo asset. ~30-45 min.[cite: 12]",
-              "steps": [
-                "Add basic error handling to each module[cite: 12]",
-                "Test one edge case[cite: 12]",
-                "Tighten the Gemini prompt if needed[cite: 12]",
-                "Name and describe the scenario clearly inside Make[cite: 12]",
-                "Write the one-paragraph plain-English description[cite: 12]"
-              ]
-            },
-            {
-              "name": "MIT 2 - Build the Proposal Template[cite: 12]",
-              "description": "Turn Phase 3's offer ladder into an actual one-page document you can send to a real prospect. ~60-75 min.[cite: 12]",
-              "steps": [
-                "Open a blank doc (Google Docs, Notion, or Canva)[cite: 12]",
-                "Write the 5-part structure from Phase 3[cite: 12]",
-                "Build the 3-tier pricing block (Audit, Sprint, Retainer)[cite: 12]",
-                "Insert today's demo as the proof element[cite: 12]",
-                "Save it as a reusable template[cite: 12]"
-              ]
-            },
-            {
-              "name": "MIT 3 - Send Portfolio to 3 People[cite: 12]",
-              "description": "Get outside feedback before a real client sees this. Needs MIT 1 finished first. ~30 min.[cite: 12]",
-              "steps": [
-                "Pick 3 specific people (small business owner, marketing sense, tech peer)[cite: 12]",
-                "Prepare what you're actually sending (description, screen recording, 2-3 specific questions)[cite: 12]",
-                "Send the personalized message[cite: 12]",
-                "Log who you sent it to and when[cite: 12]"
-              ]
-            }
-          ],
-          "secondary_tasks": [
-            "5 Outreach Messages to Real or Warm Prospects (Acquisition domain)[cite: 12]",
-            "Draft One LinkedIn Post About Today's Build (Brand domain)[cite: 12]",
-            "One Applied Skill Rep (Learning domain) - extend scenario with Slack/WhatsApp[cite: 12]",
-            "Update the Progress Dashboard (Finance/Systems domain)[cite: 12]",
-            "Save/Organize Today's Assets in One Folder[cite: 12]",
-            "Write Tomorrow's Single MIT Before Shutdown[cite: 12]"
-          ],
-          "what_not_to_do": [
-            "Don't rebuild the Make scenario from scratch[cite: 12]",
-            "Don't send the proposal template to a real prospect today[cite: 12]",
-            "Don't pick 3 random people just to check the box[cite: 12]",
-            "Don't start Phase 5's agent frameworks or LangChain[cite: 12]",
-            "Don't skip the dashboard update[cite: 12]"
-          ]
-        }
+  "week_1_action_plans_detailed": [
+    {
+      "plan_title": "Day 2 — Execution Plan | Career Strategy OS",
+      "date_reference": "Day 2",
+      "source": "[cite: 12]",
+      "recap_and_status": {
+        "status": "AI Lead Response System — Demo is live and working. Google Form → Gemini (text prompt) → Gmail send, verified in Sent folder.[cite: 12]",
+        "why_it_matters": "This is your first working, end-to-end automation — the exact artifact Phase 6 calls a 'public build demonstration'. It is not a toy — it's proof.[cite: 12]",
+        "whats_left": "Two things stand between where you are and having a sellable offer: (1) a proposal template and (2) outside eyes on your portfolio/demo.[cite: 12]"
       },
-      {
-        "day_id": "Day 3",
-        "action_plan": {
-          "title": "Day 3 Plan - Saturday, July 4, 2026[cite: 11]",
-          "recap": [
-            "8:00-9:30 'working randomly' - Lost 90 min - biggest leak. No MIT picked night before[cite: 11]",
-            "Make scenario: 73 min, not finished. Started at 5:00pm - tail end of a full day[cite: 11]",
-            "Proposal template: 0 min - Never got a protected block[cite: 11]",
-            "Portfolio: done, on time - Earliest committed block[cite: 11]"
-          ],
-          "top_mits": [
-            {
-              "name": "Finish the Make scenario (Lead Response System)[cite: 11]",
-              "description": "end-to-end, tested, working.[cite: 11]"
-            },
-            {
-              "name": "Build the proposal template[cite: 11]",
-              "description": "one page, filled with real numbers, ready to send to an actual prospect.[cite: 11]"
-            },
-            {
-              "name": "Send your portfolio link to 3 real people[cite: 11]",
-              "description": "ask for specific feedback.[cite: 11]"
-            }
-          ],
-          "schedule": [
-            "Wake -> breakfast: Protected, non-negotiable[cite: 11]",
-            "6:30-7:00: Room reset[cite: 11]",
-            "7:00-7:20: Family time[cite: 11]",
-            "7:20-7:35: Activation (15 min) - open tools[cite: 11]",
-            "7:35-9:15: DEEP WORK BLOCK 1 MIT #1: Finish the Make scenario[cite: 11]",
-            "9:15-9:30: Break-stand, water, stretch[cite: 11]",
-            "9:30-10:00: DIT workshop slide prep[cite: 11]",
-            "10:00-11:10: DIT workshop (Day #9)[cite: 11]",
-            "11:10-11:30: Lunch[cite: 11]",
-            "11:30-~12:15: Nap (shorter than today - no Jummah tomorrow)[cite: 11]",
-            "~12:15-12:45: Zuhr prayer + short break[cite: 11]",
-            "12:45-2:00: DEEP WORK BLOCK 2 MIT #2: Proposal template[cite: 11]",
-            "2:00-2:30: Family call[cite: 11]",
-            "2:30-3:00: MIT #3: Portfolio feedback ask[cite: 11]",
-            "3:00 onward: Asr, family call, Maghrib, dinner, walk, Isha[cite: 11]",
-            "Before sleep: Journal + pick Day 4's top 3 MITS[cite: 11]"
+      "top_mits": [
+        {
+          "priority": "1",
+          "name": "MIT 1 — Finish the Make Scenario",
+          "status": "Mostly Done",
+          "time_estimate": "~30–45 min",
+          "description": "Core flow works. Today = harden it (error handling, edge cases) and package it as a demo asset.[cite: 12]",
+          "steps": [
+            "Add basic error handling to each module: click each module in Make → add error handler (Ignore, Resume, Break). If Gemini fails, route to fallback generic reply.[cite: 12]",
+            "Test one edge case: Submit unusual input (empty field, short message) and confirm prompt still produces something usable.[cite: 12]",
+            "Tighten the Gemini prompt if needed: Add 1-2 sentences specifying tone, mentioning business name, and next steps.[cite: 12]",
+            "Name and describe the scenario clearly inside Make: e.g., 'AI Lead Response — Demo v1'.[cite: 12]",
+            "Write the one-paragraph plain-English description: Draft it now while fresh.[cite: 12]"
+          ]
+        },
+        {
+          "priority": "2",
+          "name": "MIT 2 — Build the Proposal Template",
+          "status": "Do Second",
+          "time_estimate": "~60–75 min",
+          "description": "Write reusable one-to-two-page proposal structure from Phase 3, filled in with actual offer.[cite: 12]",
+          "steps": [
+            "Open a blank doc (Google Docs, Notion, or Canva) — content first, formatting later.[cite: 12]",
+            "Write the 5-part structure: What we heard → What we'll do → What you'll have → What it costs → How to start.[cite: 12]",
+            "Build the 3-tier pricing block: Anchor on Audit → Sprint → Retainer ladder.[cite: 12]",
+            "Insert today's demo as the proof element: Use the one-paragraph description from MIT 1.[cite: 12]",
+            "Save it as a reusable template, not a one-off: Name it 'Proposal Template — Master'.[cite: 12]"
+          ]
+        },
+        {
+          "priority": "3",
+          "name": "MIT 3 — Send Portfolio Link to 3 Real People for Feedback",
+          "status": "Do Third",
+          "time_estimate": "~30 min",
+          "description": "Get outside feedback before a real client sees this. Needs MIT 1 finished first.[cite: 12]",
+          "steps": [
+            "Pick 3 specific people: one small business person, one with marketing/design sense, one technical peer.[cite: 12]",
+            "Prepare what you're sending: one-paragraph description, 60-second screen recording/screenshots, and 2-3 specific questions.[cite: 12]",
+            "Send the personalized message: Personalize the first line for each person.[cite: 12]",
+            "Log who you sent it to and when: One line each in a notes app or dashboard.[cite: 12]"
           ]
         }
+      ],
+      "secondary_tasks": [
+        {
+          "task": "5 Outreach Messages to Real or Warm Prospects",
+          "domain": "Acquisition",
+          "time": "~30 min",
+          "details": "Actual prospecting toward target vertical, referencing a specific quantifiable pain.[cite: 12]"
+        },
+        {
+          "task": "Draft One LinkedIn Post About Today's Build",
+          "domain": "Brand",
+          "time": "~40 min",
+          "details": "Pillar 3 (Tool Education): 'How I built a lead-response bot'. Draft only today.[cite: 12]"
+        },
+        {
+          "task": "One Applied Skill Rep",
+          "domain": "Learning",
+          "time": "~30 min",
+          "details": "Add a Slack/WhatsApp internal notification step to today's Make scenario.[cite: 12]"
+        },
+        {
+          "task": "Update the Progress Dashboard",
+          "domain": "Finance/Systems",
+          "time": "~15 min",
+          "details": "Log MIT status, outreach sent, content drafted.[cite: 12]"
+        },
+        {
+          "task": "Save/Organize Today's Assets in One Folder",
+          "domain": "Organization",
+          "time": "~10 min",
+          "details": "Create 'Portfolio Assets' folder and drop in Make screenshots, recording, and proposal master.[cite: 12]"
+        },
+        {
+          "task": "Write Tomorrow's Single MIT Before Shutdown",
+          "domain": "Planning",
+          "time": "~5 min",
+          "details": "Decide tomorrow's MIT tonight. Likely candidate: 'Send first real outreach message'.[cite: 12]"
+        }
+      ],
+      "what_not_to_do": [
+        "Don't rebuild the Make scenario from scratch. Perfectionism here violates 'good enough to ship'.[cite: 12]",
+        "Don't send the proposal template to a real prospect today.[cite: 12]",
+        "Don't pick 3 random people just to check the box for feedback.[cite: 12]",
+        "Don't start Phase 5's agent frameworks, LangChain, or 'Monitor-tier' tools. Tech stack today is Make + Gemini + Gmail.[cite: 12]",
+        "Don't skip the dashboard update.[cite: 12]"
+      ],
+      "schedule_blocks": [
+        "Fajr: Activation - Prayer + Intention + 3 MITs Confirmed[cite: 12]",
+        "Deep Work 1 (~45 min): MIT 1 - Finish Make Scenario[cite: 12]",
+        "Comms Window (~15 min): Quick Inbox check[cite: 12]",
+        "Deep Work 2 (~70 min): MIT 2 - Build Proposal Template[cite: 12]",
+        "Dhuhr: Reset - Prayer + Lunch + Break[cite: 12]",
+        "Outreach (~30 min): MIT 3 - Send Portfolio/Demo Link to 3 Real People[cite: 12]",
+        "Outreach (~30 min): Acquisition - 5 Outreach Messages[cite: 12]",
+        "Brand (~40 min): Draft One LinkedIn Post[cite: 12]",
+        "Finance (~15 min): Log Progress in Dashboard[cite: 12]",
+        "Asr: Reset - Prayer + Movement[cite: 12]",
+        "Learning (~30 min): One Applied Skill Rep[cite: 12]",
+        "Shutdown (~15 min): Daily Review + Tomorrow's MIT[cite: 12]"
+      ]
+    },
+    {
+      "plan_title": "Day 3 Plan",
+      "date_reference": "Saturday, July 4, 2026",
+      "source": "[cite: 11]",
+      "recap_and_status": {
+        "analysis": "Lost 90 min 'working randomly' because no MIT picked night before. Make scenario started at 5:00pm - energy/timing problem, not skill. Proposal template got 0 min (no protected block). Portfolio was done on time because it had the earliest committed block.[cite: 11]",
+        "fix": "Give MIT #1 the first deep-work slot, give MIT #2 a second protected slot, make MIT #3 small enough.[cite: 11]"
       },
-      {
-        "day_id": "Day 4",
-        "action_plan": {
-          "title": "Day 4 - Execution Plan | Generated from Day 3 Journal[cite: 13]",
-          "recap": [
-            "AI Lead Response System - Demo further built (nearly 6 hours total)[cite: 13]",
-            "Proposal Template - didn't start; family time took priority[cite: 13]",
-            "Portfolio feedback share - didn't start; same reason[cite: 13]",
-            "Pattern: Make scenario expanding, exposing tasks avoided[cite: 13]"
-          ],
-          "top_mits": [
-            {
-              "name": "MIT 1 - Finish the Proposal Template[cite: 13]",
-              "description": "Do this FIRST, before touching Make.com. ~60-75 min.[cite: 13]"
-            },
-            {
-              "name": "MIT 2 - Share Portfolio for Feedback[cite: 13]",
-              "description": "Do this SECOND, same morning. ~30 min.[cite: 13]"
-            },
-            {
-              "name": "MIT 3 - Pick Day 5's MITs Tonight[cite: 13]",
-              "description": "Your own journal named this the non-negotiable Field Core task.[cite: 13]"
-            }
-          ],
-          "medium_priority": [
-            "Make Scenario - Capped Refinement (Max 45 min)[cite: 13]",
-            "3-5 Outreach Messages[cite: 13]"
-          ],
-          "low_optional": [
-            "Draft One LinkedIn Post[cite: 13]",
-            "Update the Progress Dashboard[cite: 13]",
-            "Watch One More Make.com Lecture[cite: 13]",
-            "Research One Vertical's Pain Points[cite: 13]"
-          ]
+      "top_mits": [
+        {
+          "priority": "1",
+          "name": "Finish the Make scenario (Lead Response System)",
+          "details": "End-to-end, tested, working. Do not restart from zero. 5-minute audit first. Fix trigger/AI/Gmail. Record 90-second Loom demo, export scenario blueprint.[cite: 11]"
+        },
+        {
+          "priority": "2",
+          "name": "Build the proposal template",
+          "details": "One page, filled with real numbers, ready to send to an actual prospect. Base example on person helped with software today.[cite: 11]"
+        },
+        {
+          "priority": "3",
+          "name": "Send your portfolio link to 3 real people",
+          "details": "Ask for specific feedback. Pick 1 from cohort, 1 family, 1 outsider. Send specific questions.[cite: 11]"
         }
+      ],
+      "schedule_blocks": [
+        "Wake -> breakfast: Protected, non-negotiable[cite: 11]",
+        "6:30-7:00: Room reset[cite: 11]",
+        "7:00-7:20: Family time[cite: 11]",
+        "7:20-7:35: Activation (15 min) - open Make.com and sheets[cite: 11]",
+        "7:35-9:15: DEEP WORK BLOCK 1 (MIT #1)[cite: 11]",
+        "9:15-9:30: Break-stand, water, stretch[cite: 11]",
+        "9:30-10:00: DIT workshop slide prep[cite: 11]",
+        "10:00-11:10: DIT workshop (Day #9)[cite: 11]",
+        "11:10-11:30: Lunch[cite: 11]",
+        "11:30-12:15: Nap (shorter, no Jummah)[cite: 11]",
+        "12:15-12:45: Zuhr prayer + short break[cite: 11]",
+        "12:45-2:00: DEEP WORK BLOCK 2 (MIT #2 Proposal)[cite: 11]",
+        "2:00-2:30: Family call[cite: 11]",
+        "2:30-3:00: MIT #3 Portfolio feedback ask[cite: 11]",
+        "3:00 onward: Asr, family call, Maghrib, dinner, walk, Isha[cite: 11]",
+        "Before sleep: Journal + pick Day 4's top 3 MITS[cite: 11]"
+      ]
+    },
+    {
+      "plan_title": "Day 4 Plan — Built From Day 3",
+      "date_reference": "Generated from Day 3 Journal",
+      "source": "[cite: 13]",
+      "recap_and_status": {
+        "wins": "AI Lead Response System refined (nearly 6 hours total). Prayers held steady on travel day. Self-awareness strong in journal.[cite: 13]",
+        "pending": "Proposal Template and Portfolio feedback didn't start (2nd day running) due to family time.[cite: 13]",
+        "pattern_noticed": "Make scenario expanding, exposing tasks (proposal/feedback) avoided. Technical task feels safe, others feel exposing. Fix is sequencing exposing tasks first.[cite: 13]"
       },
-      {
-        "day_id": "Day 6 (Actual Day 7)",
-        "action_plan": {
-          "title": "Day 6 (Actual Day #7) Implementation Plan[cite: 14]",
-          "recap": [
-            "You wrote a personalized outreach doc for 10 new leads[cite: 14]",
-            "You found 10 real leads to send your landing page to[cite: 14]",
-            "Top MIT (Share landing page for feedback) never got past 'set the environment' due to 3 hours of unprotected block[cite: 14]"
-          ],
-          "top_mits": [
-            {
-              "name": "MIT 1 - Ship the Outreach (Field Core Task)[cite: 14]",
-              "description": "Get landing page in front of all 10 leads. Slot: 11:10 AM - 12:45 PM.[cite: 14]"
-            },
-            {
-              "name": "MIT 2 - Force a Vertical Decision on the White-Label Research[cite: 14]",
-              "description": "Slot: 6:20 PM - 7:00 PM. Answer on paper specific ROI/margin. Decision: Pursue/Park/Drop.[cite: 14]"
-            },
-            {
-              "name": "MIT 3 - Pre-Decide Wednesday's MITs + Close the Journal by 10:00 PM[cite: 14]",
-              "description": "Slot: 8:00 PM - 8:20 PM. Write tomorrow's top 3 MITs as complete sentences.[cite: 14]"
-            }
-          ],
-          "learning_nugget": [
-            "Anatomy of a Cold Outreach Message That Gets Replies: 1. Specific observation. 2. One-sentence bridge. 3. Tiny, easy ask. 4. Zero pressure close.[cite: 14]"
-          ]
+      "top_mits": [
+        {
+          "priority": "1",
+          "name": "MIT 1 — Finish the Proposal Template",
+          "tag": "Top Priority - Non-Negotiable",
+          "time_estimate": "~60-75 min",
+          "description": "Do this FIRST, before touching Make.com. Reusable one-to-two-page proposal.[cite: 13]"
+        },
+        {
+          "priority": "2",
+          "name": "MIT 2 — Share Portfolio for Feedback",
+          "tag": "Top Priority",
+          "time_estimate": "~30 min",
+          "description": "Do this SECOND, same morning. Pick 3 specific people, attach screen recording, send personalized message.[cite: 13]"
+        },
+        {
+          "priority": "3",
+          "name": "MIT 3 — Pick Day 5's MITs Tonight",
+          "tag": "Top Priority",
+          "time_estimate": "~20 min",
+          "description": "Pick MITs and write journal before feeling tired. Do right after Isha.[cite: 13]"
         }
+      ],
+      "medium_and_low_tasks": [
+        {
+          "task": "Make Scenario Refinement",
+          "priority": "Medium",
+          "time": "45 min max",
+          "details": "Capped refinement. Set visible timer. Pick ONE improvement (e.g., Slack notification). Stop when timer rings.[cite: 13]"
+        },
+        {
+          "task": "3-5 Outreach Messages",
+          "priority": "Medium",
+          "details": "Send only once the proposal template exists.[cite: 13]"
+        },
+        {
+          "task": "Draft One LinkedIn Post",
+          "priority": "Low",
+          "details": "About the lead-response automation. Draft only.[cite: 13]"
+        },
+        {
+          "task": "Update Progress Dashboard",
+          "priority": "Low",
+          "details": "3 minutes. Log MIT status.[cite: 13]"
+        }
+      ],
+      "problem_solution_learning": [
+        {
+          "problem": "'I don't know what price to put — I have no track record.'[cite: 13]",
+          "solution": "Use lower end ($800–1,200 for audit), treat first 1-2 clients as discounted pilots for case studies.[cite: 13]"
+        },
+        {
+          "problem": "'It feels awkward asking for money for something I built in a day.'[cite: 13]",
+          "solution": "Reframe: charging for the outcome (faster lead response), not hours.[cite: 13]"
+        },
+        {
+          "problem": "'What if they think it looks amateurish?'[cite: 13]",
+          "solution": "That's exactly the information needed before a paying client forms that opinion silently.[cite: 13]"
+        }
+      ],
+      "schedule_blocks": [
+        "Fajr Block: Prayer + Quran + Read Plan[cite: 13]",
+        "Deep Work 1 (~70 min): MIT 1 - Build Proposal Template[cite: 13]",
+        "Deep Work (~30 min): MIT 2 - Send Portfolio Link[cite: 13]",
+        "Buffer (~15 min): Inbox Check[cite: 13]",
+        "Flexible: DIT Class / Teaching / Family[cite: 13]",
+        "Dhuhr: Prayer + Lunch[cite: 13]",
+        "Medium Priority (~45 min max): Make Scenario Refinement (Time-Boxed)[cite: 13]",
+        "Flexible: Family Time[cite: 13]",
+        "Prayers/Rest: Asr / Maghrib / Isha[cite: 13]",
+        "Before Bed (~20 min): MIT 3 - Pick Day 5's MITs + Finish Journal[cite: 13]"
+      ]
+    },
+    {
+      "plan_title": "Day 6 (Actual Day #7) Implementation Plan",
+      "date_reference": "Tuesday, July 7, 2026",
+      "source": "[cite: 14]",
+      "recap_and_status": {
+        "wins": "Wrote personalized outreach doc for 10 leads. Found 10 real leads.[cite: 14]",
+        "gap": "Top MIT ('Share landing page') never got past 'set environment'. 3 hours went to installing emulator and random talk. Just an unprotected block.[cite: 14]"
       },
-      {
-        "day_id": "Day 7",
-        "action_plan": {
-          "title": "Day 7 - Execution Plan[cite: 15]",
-          "recap": [
-            "Design 1 real automation workflow (Missed)[cite: 15]",
-            "Outreach 7 of 10 sent (Missed)[cite: 15]",
-            "DIT training + product research (Win)[cite: 15]"
-          ],
-          "top_mits": [
-            {
-              "name": "MIT 1 - Design & build your first real automation workflow[cite: 15]",
-              "description": "Deep Work Block 1 (5:45 AM - 8:15 AM). Tool: Make. Lead-capture form -> AI response -> notification.[cite: 15]"
-            },
-            {
-              "name": "MIT 2 - Close the outreach loop[cite: 15]",
-              "description": "Deep Work Block 2 (8:45 AM - 10:15 AM). 3 remaining messages + reply to both responders.[cite: 15]"
-            },
-            {
-              "name": "MIT 3 - Finalize yesterday's product research report[cite: 15]",
-              "description": "Focused Work Block (10:30 AM - 11:30 AM). Hard stop at 60 minutes.[cite: 15]"
-            }
-          ],
-          "secondary_tasks": [
-            "Open a dedicated business bank account[cite: 15]",
-            "Calculate your real Stage-1 survival number[cite: 15]",
-            "30-minute LinkedIn profile optimization pass[cite: 15]",
-            "One consolidated daily journal entry (not three)[cite: 15]"
-          ],
-          "trigger_rules": [
-            "IF replier responds, THEN reply within 4 hours[cite: 15]",
-            "IF missed yesterday's outreach target, THEN do not restart count, send remaining 3 and move on[cite: 15]"
-          ]
+      "diagnostic_questions": [
+        "Did I decide today's MIT last night, or at 4:00 PM?[cite: 14]",
+        "When the 1-hour nap became 3 hours, what was I avoiding?[cite: 14]",
+        "Was helping Ali install his emulator a genuine emergency, or a comfortable way to not open outreach doc?[cite: 14]",
+        "Is 'Family break' the real reason, or a socially acceptable label for resistance?[cite: 14]"
+      ],
+      "top_mits": [
+        {
+          "priority": "1",
+          "name": "MIT 1 - Ship the Outreach (Field Core Task)",
+          "time_slot": "11:10 AM - 12:45 PM",
+          "details": "Open outreach doc. Set 2-minute timer. Send to leads 1-3 in first 10 mins. Continue 4-10, personalizing one line per lead. Log sends.[cite: 14]"
+        },
+        {
+          "priority": "2",
+          "name": "MIT 2 - Force a Vertical Decision on the White-Label Research",
+          "time_slot": "6:20 PM - 7:00 PM",
+          "details": "Answer on paper: specific problem solved? Decision maker? ROI/margin? Recurring/one-off? Make timestamped decision: Pursue/Park/Drop.[cite: 14]"
+        },
+        {
+          "priority": "3",
+          "name": "MIT 3 - Pre-Decide Wednesday's MITs + Close the Journal by 10:00",
+          "time_slot": "8:00 PM - 8:20 PM",
+          "details": "Write tomorrow's top 3 MITs as complete sentences with smallest physical next action. Hard stop at 10:00 PM.[cite: 14]"
         }
-      }
-    ],
-    "week_2": [
-      {
-        "day_id": "Day 8",
-        "action_plan": {
-          "title": "Day #8 — Saturday, July 11, 2026 | Career Strategy OS[cite: 17]",
-          "recap_and_carried_forward": [
-            "3 days running — automation build interrupted by setup tasks (Day 5, Day 6, Day 7)[cite: 17]",
-            "3 remaining — outreach messages unsent since Day 5[cite: 17]"
-          ],
-          "anchors": [
-            "Fajr: Protected, no phone before it. Perfect streak all week — don't touch it today.[cite: 17]",
-            "Nap Cap — 60 min: Hard ceiling. Shift bedtime earlier if it runs over.[cite: 17]",
-            "Dhuhr / Asr / Maghrib / Isha: Normal schedule. Each one a genuine break.[cite: 17]"
-          ],
-          "top_mits": [
-            {
-              "priority": "1",
-              "time_slot": "5:45am – 8:15am[cite: 17]",
-              "name": "Finish & Fully Test the Automation[cite: 17]",
-              "tag": "3-Day Carry-Over — Highest Priority[cite: 17]",
-              "details": "10-minute hard cap on any setup, planning, or folder work. Set a visible timer before opening anything. Goal: the workflow runs end-to-end with no manual intervention at any step.[cite: 17]"
-            },
-            {
-              "priority": "2",
-              "time_slot": "8:45am – 9:45am[cite: 17]",
-              "name": "Send a Fresh Outreach Batch of 10[cite: 17]",
-              "tag": "Closes the 3-Day Stall[cite: 17]",
-              "details": "First: confirm the 3 remaining messages from Day 5 are actually sent. Continue to a full fresh 10 — new leads, one personalized line each. Target for today: 13 total sent this week.[cite: 17]"
-            },
-            {
-              "priority": "3",
-              "time_slot": "Afternoon[cite: 17]",
-              "name": "Record a 90-Second Demo of the Working Automation[cite: 17]",
-              "tag": "First Real Proof-of-Work Asset[cite: 17]",
-              "details": "Screen-record the automation actually running, start to finish. No editing needed. Save it somewhere you'll actually find again.[cite: 17]"
-            }
-          ],
-          "admin_and_skipped": [
-            "DIT training prep/delivery — as normal.[cite: 17]",
-            "Light brand/content thinking — if energy allows in the evening.[cite: 17]",
-            "Do not touch the cosmetics/wholesaler decision today. (Day #9 task)[cite: 17]",
-            "Do not open the business bank account or calculate the survival number today. (Day #9 task)[cite: 17]"
-          ],
-          "trigger_rules": [
-            "IF Any task labeled setup, planning, or folder structure appears in the first block THEN 10-minute visible timer. When it rings, close it and open Make.com directly.[cite: 17]",
-            "IF Outreach count is anything other than 0 or 10 THEN Remaining messages are the very first task of the block.[cite: 17]"
-          ],
-          "evening_checklist": [
-            "Log automation status: done / not done, and today's actual outreach total sent.[cite: 17]",
-            "One sentence: how did the 10-minute setup cap actually feel to enforce?[cite: 17]",
-            "Write Day #9 (Sunday)'s MIT list in advance — bank account, survival number, cosmetics Pursue/Park/Drop decision.[cite: 17]",
-            "If the nap ran past 60 minutes today, note it and move tonight's bedtime 20–30 minutes earlier.[cite: 17]"
-          ]
-        }
+      ],
+      "learning_nugget": {
+        "topic": "Anatomy of a Cold Outreach Message That Gets Replies",
+        "structure": "1. Specific observation. 2. One-sentence bridge. 3. Tiny, easy ask (2 mins feedback). 4. Zero pressure close.[cite: 14]"
       },
-      {
-        "day_id": "Day 9",
-        "action_plan": {
-          "title": "Day #9 Implementation Playbook — Sunday, July 12, 2026[cite: 18]",
-          "overview": "Exactly How to Do It: Every task from today's plan, broken into the literal clicks, fields, and words to use.[cite: 18]",
-          "top_mits": [
-            {
-              "priority": "1",
-              "name": "MIT 1 — Pick the Project, Plan, Build, Test, Document[cite: 18]",
-              "details": "Extend Jul 4 demo to 'AI Lead Response + Tracking System v2'.[cite: 18] Add exactly two things: Google Sheet log and basic error fallback.[cite: 18] Build module-by-module in Make (5 modules total: Google Sheets Watch Rows, Gemini Request, Gmail Send, Google Sheets Add Row, Error Handler).[cite: 18] Test with real test form entry, verify outputs, document, and turn scheduling ON.[cite: 18]"
-            },
-            {
-              "priority": "2",
-              "name": "MIT 2 — Find Leads, Message Scripts, Send & Log[cite: 18]",
-              "details": "Send the 3 old messages first, then find 5–8 fresh leads using free LinkedIn search.[cite: 18] Use the exact message anatomy: specific observation → bridge → tiny ask → zero-pressure close.[cite: 18] Log every message the moment it is sent in a tracking sheet.[cite: 18]"
-            },
-            {
-              "priority": "3",
-              "name": "MIT 3 — Business Bank Account, Survival Number, Cosmetics Decision[cite: 18]",
-              "details": "Open a non-interest-bearing business bank account (e.g., Islamic banking window).[cite: 18] Calculate real Stage-1 survival number (excluding Zakat).[cite: 18] Answer questions on paper and make a definitive Pursue/Park/Drop decision regarding the cosmetics/wholesaler venture.[cite: 18]"
-            }
-          ],
-          "secondary_tasks": [
-            "Record a 90-second demo of the working automation.[cite: 18]",
-            "Health check-in: if not fully recovered, cut fresh outreach batch and protect rest.[cite: 18]",
-            "One consolidated journal entry this evening, written once.[cite: 18]"
-          ],
-          "boundaries": [
-            "The automation build stops at the 5 modules listed (no Slack notifications, second AI models, etc. today).[cite: 18]",
-            "Outreach today is capped at the 3 old + up to 8 new.[cite: 18]",
-            "Any setup, folder, or planning sub-task inside MIT 1 gets a hard 10-minute timer.[cite: 18]",
-            "If you're still not well, MIT 3 (financial + decision) takes priority over MIT 1 and MIT 2.[cite: 18]"
-          ]
-        }
+      "schedule_blocks": [
+        "4:20-8:45 AM: Fajr, Quran, family, chores[cite: 14]",
+        "8:45-10:15 AM: Prep + travel to hostel[cite: 14]",
+        "10:15-11:10 AM: DIT practical workshop[cite: 14]",
+        "11:10 AM-12:45 PM: MIT 1 - Ship outreach to all 10 leads[cite: 14]",
+        "12:45-2:00 PM: Lunch + admin[cite: 14]",
+        "2:00-6:00 PM: Flexible/admin (Protect from nap-drift)[cite: 14]",
+        "6:20-7:00 PM: MIT 2 - Vertical decision[cite: 14]",
+        "7:30-8:00 PM: Maghrib[cite: 14]",
+        "8:00-8:20 PM: MIT 3 - Pre-decide Wed's MITs, journal[cite: 14]",
+        "Before 10:00 PM: Journal closed, phone away[cite: 14]"
+      ]
+    },
+    {
+      "plan_title": "Day 7 — Execution Plan",
+      "date_reference": "Wednesday, July 8, 2026",
+      "source": "[cite: 15]",
+      "recap_and_status": {
+        "carried_forward": "Design 1 real automation workflow (Missed). Outreach 7 of 10 sent (Missed). DIT training + product research (Win). Pick top 3 MITs before bed (Improvement Target).[cite: 15]"
       },
-      {
-        "day_id": "Day 10",
-        "action_plan": {
-          "title": "Day #10 Dashboard — Monday, July 13, 2026[cite: 19]",
-          "status_check_in": [
-            "Automation shipped & tested (Lead Response + Tracking v2): 5-day carry[cite: 19]",
-            "Outreach fully sent (3 old + fresh batch): 5-day carry[cite: 19]",
-            "Financial trio (bank account + survival number + cosmetics decision): 2-3 day carry[cite: 19]"
-          ],
-          "top_mits": [
-            {
-              "priority": "1",
-              "name": "Automation — Branch by Checkbox 1 Above[cite: 19]",
-              "context": "Phase 5 (Tech Roadmap) · Phase 3 (proof-of-work asset) · Deep Work Block 1, 6:00–8:30am[cite: 19]",
-              "details": {
-                "path_a_not_done": "Resume playbook: check Gemini module API key, ensure Gmail mapping has candidates[0].content.parts[0].text, add Sheets tracking log, add error handler with static fallback, run test, turn scheduling ON.[cite: 19]",
-                "path_b_already_shipped": "Record 90-sec demo, write Case Study Draft skeleton using real test run numbers, add demo link/video into proposal template.[cite: 19]"
-              }
-            },
-            {
-              "priority": "2",
-              "name": "Outreach — Follow-Ups + Proposal Refinement[cite: 19]",
-              "context": "Phase 3 (Sales Funnel) · Phase 6 (Proof-of-Work) · Deep Work Block 2, 8:45–9:45am[cite: 19]",
-              "details": {
-                "path_a_incomplete": "Send any still-unsent messages first, log each one immediately in the Outreach Log sheet.[cite: 19]",
-                "path_b_complete": "Check replies from last 48 hours, respond within 4 hours with 2 specific call slots, send 3–5 fresh personalized messages.[cite: 19]",
-                "both_paths": "Open proposal template and insert demo video link/embed as proof, add one line of real ROI framing.[cite: 19]"
-              }
-            },
-            {
-              "priority": "3",
-              "name": "Financial Trio (if not closed) + DIT Delivery[cite: 19]",
-              "context": "Phase 4 (Financial OS) · Stable Income Business · Afternoon block[cite: 19]",
-              "details": {
-                "path_a_open": "Open business bank account, calculate real survival number, write cosmetics Pursue/Park/Drop decision.[cite: 19]",
-                "path_b_closed": "Protect block for DIT prep and rest.[cite: 19]",
-                "dit_delivery": "Prep today's DIT lecture content and deliver the class.[cite: 19]"
-              }
-            }
-          ],
-          "roadmap_context": [
-            "Business Model Phase (Ph. 3): Phase A · Solo Consulting · 0–1 case study in progress[cite: 19]",
-            "Financial OS Stage (Ph. 4): Stage 1–2 · Survival + Stability, account not yet separated[cite: 19]",
-            "Tech Stack Fluency (Ph. 5): Make.com foundational build in progress, week 2[cite: 19]",
-            "Authority / Proof (Ph. 6): First demo video pending — 0 case studies published[cite: 19]"
-          ]
+      "top_mits": [
+        {
+          "priority": "1",
+          "name": "MIT 1 - Design & build your first real automation workflow",
+          "time_slot": "5:45 AM – 8:15 AM",
+          "details": "Tool: Make. Build one end-to-end scenario (lead form -> AI response -> notification). Run successfully end-to-end. Capture rule: if unfinished, write exactly where stopped.[cite: 15]"
+        },
+        {
+          "priority": "2",
+          "name": "MIT 2 - Close the outreach loop",
+          "time_slot": "8:45 AM – 10:15 AM",
+          "details": "Reply to both repliers (ask follow-up question). Send 3 remaining personalized outreach messages. Log final count.[cite: 15]"
+        },
+        {
+          "priority": "3",
+          "name": "MIT 3 - Finalize yesterday's product research report",
+          "time_slot": "10:30 AM – 11:30 AM",
+          "details": "Finish with one-paragraph conclusion. Hard stop at 60 mins. File it.[cite: 15]"
         }
-      }
-    ]
-  }
-}
+      ],
+      "secondary_tasks": [
+        {
+          "task": "Open a dedicated business bank account",
+          "details": "Phase 4 bridge action. No income threshold required.[cite: 15]"
+        },
+        {
+          "task": "Calculate real Stage-1 survival number",
+          "details": "Actual minimum monthly cost of staying functional.[cite: 15]"
+        },
+        {
+          "task": "30-minute LinkedIn profile optimization",
+          "details": "Headline, about section, featured section updated.[cite: 15]"
+        },
+        {
+          "task": "One consolidated daily journal entry",
+          "details": "Write it once, 8:00-8:30pm block. Stop fragmenting journal.[cite: 15]"
+        }
+      ],
+      "trigger_rules": [
+        "IF replier responds THEN reply within 4 hours.[cite: 15]",
+        "IF missed yesterday's target THEN send remaining 3 today, cap it, move on.[cite: 15]",
+        "IF DW1 ends before workflow is finished THEN write exact stopping point.[cite: 15]",
+        "IF feel pull to write journal in fragments THEN don't act until 8:00 PM block.[cite: 15]"
+      ],
+      "schedule_blocks": [
+        "4:05 AM: Wake + Fajr Prep[cite: 15]",
+        "4:20-4:50: Fajr + Quran[cite: 15]",
+        "4:50-5:45: Quran + Breakfast[cite: 15]",
+        "5:45-8:15: Deep Work 1 - MIT 1[cite: 15]",
+        "8:15-8:45: Recovery Buffer[cite: 15]",
+        "8:45-10:15: Deep Work 2 - MIT 2[cite: 15]",
+        "10:15-10:30: Short Break[cite: 15]",
+        "10:30-11:30: MIT 3 - Product research report[cite: 15]",
+        "11:30-11:50: Lunch Prep + Lunch[cite: 15]",
+        "11:50-12:30: Dhuhr Prayer[cite: 15]",
+        "12:30-1:15: Admin Block - Business Account[cite: 15]",
+        "1:15-2:00: Protected Social Time[cite: 15]",
+        "2:00-2:30: Brand Task - LinkedIn[cite: 15]",
+        "2:30-3:00: Asr Prayer[cite: 15]",
+        "3:00-4:00: Learning Block - Document workflow[cite: 15]",
+        "4:00-5:30: Flexible / Catch-Up[cite: 15]",
+        "5:30-6:00: Maghrib Prayer[cite: 15]",
+        "6:00-6:30: Dinner[cite: 15]",
+        "6:30-7:30: Family Call[cite: 15]",
+        "7:30-8:00: Isha Prayer[cite: 15]",
+        "8:00-8:30: One Consolidated Journal Entry[cite: 15]",
+        "8:30-9:00: Family Call #2 + Wind Down[cite: 15]"
+      ],
+      "shutdown_ritual": [
+        "Log today's dashboard numbers honestly.[cite: 15]",
+        "Write single consolidated journal entry.[cite: 15]",
+        "Name tomorrow's non-negotiable task.[cite: 15]",
+        "Pick tomorrow's top 3 MITs right now, tonight - on paper.[cite: 15]",
+        "Upload journal and close laptop.[cite: 15]"
+      ]
+    },
+  ],
+},
+{
+  "week_2_action_plans_detailed": [
+    {
+      "plan_title": "Day 8 — Execution Plan",
+      "date_reference": "Thursday, July 9, 2026",
+      "source": "[cite: 16]",
+      "recap_and_status": {
+        "slipped_twice": "Design 1 real automation workflow (Slipped twice). Most build time went to Google Drive structuring.[cite: 16]",
+        "win": "Both repliers responded to.[cite: 16]",
+        "missed": "3 outreach messages remaining, Business bank account not opened.[cite: 16]"
+      },
+      "top_mits": [
+        {
+          "priority": "1",
+          "name": "MIT 1 - Ship the automation workflow",
+          "time_slot": "5:45 – 8:15 AM",
+          "details": "Building beats planning. Maximum 15 minutes on any folder/planning step. One scenario in Make with at least 2 connected modules. Phone in another room.[cite: 16]"
+        },
+        {
+          "priority": "2",
+          "name": "MIT 2 - Close out outreach + open fresh batch",
+          "time_slot": "8:45 – 9:45 AM",
+          "details": "Send 3 remaining messages. Start today's fresh batch (5-8 new). Reply rule: within 4 hours.[cite: 16]"
+        },
+        {
+          "priority": "3",
+          "name": "MIT 3 - Open business account + calculate survival number",
+          "time_slot": "10:00 – 10:45 AM",
+          "details": "Open separate business account. Calculate real Stage-1 survival number. 45 mins total.[cite: 16]"
+        }
+      ],
+      "secondary_tasks": [
+        {
+          "task": "LinkedIn profile optimization pass",
+          "details": "Headline, About, Featured section updated.[cite: 16]"
+        },
+        {
+          "task": "Finalize product research report",
+          "details": "If not shipped yesterday, close it in the 2:00-2:30 slot.[cite: 16]"
+        },
+        {
+          "task": "Musadiq Ali's workspace & Brother's CV",
+          "details": "Slot into 4:00-5:30 flexible block.[cite: 16]"
+        },
+        {
+          "task": "One consolidated daily journal entry",
+          "details": "8:00-8:30 PM block.[cite: 16]"
+        }
+      ],
+      "trigger_rules": [
+        "IF >15 mins spent on planning THEN stop and open Make.com.[cite: 16]",
+        "IF Block 1 ends unfinished THEN write one sentence of next action.[cite: 16]",
+        "IF someone replies THEN reply within 4 hours.[cite: 16]",
+        "IF pull to open journal after 8:30 PM THEN don't, note it for tomorrow.[cite: 16]",
+        "IF business account not open by 11:00 AM THEN it becomes very next action.[cite: 16]"
+      ],
+      "schedule_blocks": [
+        "4:05 AM: Wake + Fajr Prep[cite: 16]",
+        "4:20-4:50: Fajr + Quran[cite: 16]",
+        "4:50-5:45: Quran + Breakfast[cite: 16]",
+        "5:45-8:15: Deep Work Block 1 - MIT 1[cite: 16]",
+        "8:15-8:45: Recovery Buffer[cite: 16]",
+        "8:45-9:45: Deep Work Block 2 - MIT 2[cite: 16]",
+        "9:45-10:00: Short Break[cite: 16]",
+        "10:00-10:45: MIT 3 - Business account[cite: 16]",
+        "10:45-11:15: Knowledge Log + DIT Check[cite: 16]",
+        "11:15-11:45: Lunch[cite: 16]",
+        "11:45-12:30: Dhuhr Prayer[cite: 16]",
+        "12:30-1:15: Brand Task - LinkedIn[cite: 16]",
+        "1:15-2:00: Protected Social Time[cite: 16]",
+        "2:00-2:30: Finish / Ship - Product research[cite: 16]",
+        "2:30-3:00: Asr Prayer[cite: 16]",
+        "3:00-4:00: Learning Block - Strengthen workflow[cite: 16]",
+        "4:00-5:30: Flexible / Catch-Up[cite: 16]",
+        "5:30-6:00: Maghrib Prayer[cite: 16]",
+        "6:00-6:30: Dinner[cite: 16]",
+        "6:30-7:30: Family Call[cite: 16]",
+        "7:30-8:00: Isha Prayer[cite: 16]",
+        "8:00-8:30: One Consolidated Journal Entry[cite: 16]",
+        "8:30-9:00: Family Call #2 + Wind Down[cite: 16]"
+      ],
+      "shutdown_ritual": [
+        "Log dashboard numbers honestly right now.[cite: 16]",
+        "Write single consolidated journal entry.[cite: 16]",
+        "Name tomorrow's non-negotiable task.[cite: 16]",
+        "Pick tomorrow's top 3 MITs right now, in this same sitting.[cite: 16]",
+        "Upload journal and close laptop.[cite: 16]"
+      ]
+    }
+  ]
+},
+{
+  "type": "Execution Plan",
+  "title": "Day #9 Implementation Playbook — Sunday, July 12, 2026[cite: 18]",
+  "overview": "Exactly How to Do It: Every task from today's plan, broken into the literal clicks, fields, and words to use.[cite: 18]",
+  "top_mits": [
+    {
+      "priority": "1",
+      "name": "MIT 1 — Pick the Project, Plan, Build, Test, Document[cite: 18]",
+      "details": "Extend Jul 4 demo to 'AI Lead Response + Tracking System v2'.[cite: 18] Add exactly two things: Google Sheet log and basic error fallback.[cite: 18] Build module-by-module in Make (5 modules total: Google Sheets Watch Rows, Gemini Request, Gmail Send, Google Sheets Add Row, Error Handler).[cite: 18] Test with real test form entry, verify outputs, document, and turn scheduling ON.[cite: 18]"
+    },
+    {
+      "priority": "2",
+      "name": "MIT 2 — Find Leads, Message Scripts, Send & Log[cite: 18]",
+      "details": "Send the 3 old messages first, then find 5–8 fresh leads using free LinkedIn search.[cite: 18] Use the exact message anatomy: specific observation → bridge → tiny ask → zero-pressure close.[cite: 18] Log every message the moment it is sent in a tracking sheet.[cite: 18]"
+    },
+    {
+      "priority": "3",
+      "name": "MIT 3 — Business Bank Account, Survival Number, Cosmetics Decision[cite: 18]",
+      "details": "Open a non-interest-bearing business bank account (e.g., Islamic banking window).[cite: 18] Calculate real Stage-1 survival number (excluding Zakat).[cite: 18] Answer questions on paper and make a definitive Pursue/Park/Drop decision regarding the cosmetics/wholesaler venture.[cite: 18]"
+    }
+  ],
+  "secondary_tasks": [
+    "Record a 90-second demo of the working automation.[cite: 18]",
+    "Health check-in: if not fully recovered, cut fresh outreach batch and protect rest.[cite: 18]",
+    "One consolidated journal entry this evening, written once.[cite: 18]"
+  ],
+  "boundaries": [
+    "The automation build stops at the 5 modules listed (no Slack notifications, second AI models, etc. today).[cite: 18]",
+    "Outreach today is capped at the 3 old + up to 8 new.[cite: 18]",
+    "Any setup, folder, or planning sub-task inside MIT 1 gets a hard 10-minute timer.[cite: 18]",
+    "If you're still not well, MIT 3 (financial + decision) takes priority over MIT 1 and MIT 2.[cite: 18]"
+  ]
+},
+{
+  "type": "Execution Plan",
+  "title": "Day #10 Dashboard — Monday, July 13, 2026[cite: 24]",
+  "status_check_in": [
+    "Automation shipped & tested (Lead Response + Tracking v2): 5-day carry[cite: 24]",
+    "Outreach fully sent (3 old + fresh batch): 5-day carry[cite: 24]",
+    "Financial trio (bank account + survival number + cosmetics decision): 2-3 day carry[cite: 24]"
+  ],
+  "top_mits": [
+    {
+      "priority": "1",
+      "name": "Automation — Branch by Checkbox 1 Above[cite: 24]",
+      "context": "Phase 5 (Tech Roadmap) · Phase 3 (proof-of-work asset) · Deep Work Block 1, 6:00–8:30am[cite: 24]",
+      "details": {
+        "path_a_not_done": "Resume exactly where yesterday's playbook left off — do not restart. Reopen Make.com scenario, check for failed modules, ensure API key/endpoint are correct, confirm Gemini mapping uses candidates[0].content.parts[0].text, add Google Sheets Add a Row module, add error handler with static fallback, submit a test form, and turn scheduling ON.[cite: 24]",
+        "path_b_already_shipped": "Record the 90-second demo video if not already done, write the Case Study Draft skeleton using the real test run's numbers, add the demo link/video into your proposal template.[cite: 24]"
+      },
+      "definition_of_done": "Scenario is ON, tested end-to-end, error handler verified once, demo video recorded, case study draft file exists with real content.[cite: 24]"
+    },
+    {
+      "priority": "2",
+      "name": "Outreach — Follow-Ups + Proposal Refinement[cite: 24]",
+      "context": "Phase 3 (Sales Funnel) · Phase 6 (Proof-of-Work) · Deep Work Block 2, 8:45–9:45am[cite: 24]",
+      "details": {
+        "path_a_incomplete": "Send any still-unsent messages from yesterday's batch first. Log each one immediately in the Outreach Log sheet (Name, Profile Link, Date Sent, Replied?, Follow-Up Date).[cite: 24]",
+        "path_b_complete": "Check all replies from the last 48 hours — respond within 4 hours, offer 2 specific call time slots. Send 3–5 fresh personalized messages.[cite: 24]",
+        "both_paths": "Open your proposal template and insert the demo video link/embed as the proof element. Add one line of real ROI framing.[cite: 24]"
+      },
+      "definition_of_done": "Zero unsent messages carried past today, all replies answered within 4 hours, proposal template updated with the demo as proof.[cite: 24]"
+    },
+    {
+      "priority": "3",
+      "name": "Financial Trio (if not closed) + DIT Delivery[cite: 24]",
+      "context": "Phase 4 (Financial OS) · Stable Income Business · Afternoon block[cite: 24]",
+      "details": {
+        "path_a_open": "Open the business bank account (prefer an Islamic/non-interest account). Calculate the real survival number from actual last-3-months spending. Write the cosmetics Pursue/Park/Drop decision.[cite: 24]",
+        "path_b_closed": "Nothing further needed here today — protect this block for DIT prep and rest instead.[cite: 24]",
+        "dit_delivery": "Prep today's DIT lecture content and deliver the class.[cite: 24]"
+      },
+      "definition_of_done": "All three financial items closed (or confirmed already closed) and DIT class delivered.[cite: 24]"
+    }
+  ],
+  "roadmap_context": [
+    "Business Model Phase (Ph. 3): Phase A · Solo Consulting · 0–1 case study in progress[cite: 24]",
+    "Financial OS Stage (Ph. 4): Stage 1–2 · Survival + Stability, account not yet separated[cite: 24]",
+    "Tech Stack Fluency (Ph. 5): Make.com foundational build in progress, week 2[cite: 24]",
+    "Authority / Proof (Ph. 6): First demo video pending — 0 case studies published[cite: 24]"
+  ]
+},
+
+]
+
+
+    
