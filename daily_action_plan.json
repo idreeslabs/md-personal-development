@@ -665,6 +665,166 @@
     ]
   }
 },
-
+{
+  "metadata": {
+    "title": "Day #13 — Thu, Jul 16, 2026 | Career Strategy OS",
+    "system_date": "Thu, Jul 16, 2026",
+    "week": 2,
+    "day": 13
+  },
+  "sidebar": {
+    "eyebrow": "📅 Career Strategy OS · Week 2",
+    "title": "Day #13 — Thu, Jul 16, 2026",
+    "navigation": [
+      { "number": null, "title": "— Overview", "link": "#hero" },
+      { "number": "01", "title": "Carry-Forward Status", "link": "#s1" },
+      { "number": "02", "title": "The Pattern to Fix Today", "link": "#s2" },
+      { "number": "03", "title": "Today's MITs", "link": "#s3" },
+      { "number": "04", "title": "Trigger Rules", "link": "#s4" },
+      { "number": "05", "title": "Live Progress", "link": "#s5" },
+      { "number": "06", "title": "Generate Summary", "link": "#s6" },
+      { "number": "07", "title": "Looking to Day #14", "link": "#s7" }
+    ],
+    "footer_note": "Cross-referenced against Phase 1 (ICP fit), Phase 3 (offer/sales funnel), Phase 5 (Make.com stack), and Phase 7 (trigger rules, MIT protocol)."
+  },
+  "hero_overview": {
+    "badge": "🗓️ Day #13 · Week 2, 2nd-Last Day",
+    "title": "Two Warm Leads Are Waiting. Close Them Before You Build Anything Else.",
+    "description": "Notification module still open, two real replies (Timothy, Shivateja) sitting unanswered, and yesterday's close-out shows the financial foundation is finally done. Today is short — teaching starts at 10:00am — so this plan is three MITs, in a strict order, not five.",
+    "kpis": [
+      { "value": "2", "label": "Warm Replies Open" },
+      { "value": "3", "label": "MITs Today" },
+      { "value": "1", "label": "Automation Task Left" },
+      { "value": "D14", "label": "Last Day of Week 2" }
+    ]
+  },
+  "sections": [
+    {
+      "id": "s1",
+      "number": "01",
+      "title": "Carry-Forward Status — What's Actually Closed",
+      "subtitle": "Pulled straight from your last close-out. No re-litigating what's already done.",
+      "items": [
+        {
+          "title": "Business Bank Account",
+          "description": "Already existed from 2021 (freelancing account) — re-confirmed access. Full dedicated business account still needs Rs 5 lac threshold; treat current account as the working account for now and revisit the formal business account once MRR justifies it.",
+          "status": "Closed",
+          "status_indicator": "done"
+        },
+        {
+          "title": "Stage 1 Survival Number — Calculated",
+          "description": "Rs 60,000/month total (Health 5K · Hostel 15K · Partner 5K · Personal/Home 20K · Career Setup 10K · Sadaqah 5K). This is now your Phase 4 floor — use it, don't recalculate it from feeling.",
+          "status": "Closed",
+          "status_indicator": "done"
+        },
+        {
+          "title": "Cosmetics/Beauty Venture — Decision Logged",
+          "description": "Pursue — explicitly as a side business, roommate-managed, small-scale white-label test (1 sample → 50/100/150/300 units), ~Rs 10K in sales already. Decision is made — the open loop from Week 1 is closed. It does not get a Deep Work Block; it gets evenings only.",
+          "status": "Side / Parked-active",
+          "status_indicator": "side"
+        },
+        {
+          "title": "Automation — Notification Module",
+          "description": "Gemini error handler ✅, logging ✅, documentation ✅. Notification module (the piece that alerts you when a lead comes in) is the one remaining build item — carried from Jul 7–9 and still not started.",
+          "status": "Open",
+          "status_indicator": "open"
+        },
+        {
+          "title": "Outreach Replies — Unanswered",
+          "description": "Timothy Anthony and Shivateja Kondeti both replied positively on your landing page/architecture. Neither reply has been answered yet. This is now the oldest open loop on the board.",
+          "status": "Open — Oldest",
+          "status_indicator": "open"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "number": "02",
+      "title": "The Pattern to Fix Today",
+      "subtitle": "Named specifically, the way Week 1's review named the folder-structure problem",
+      "callout": {
+        "title": "Your outreach is reaching fellow automation builders, not your Phase 3 ICP",
+        "content": "Both of your 7 outreach messages that got real replies — Timothy Anthony and Shivateja Kondeti — are themselves AI automation engineers (n8n, Make.com, Python, WhatsApp bots). That's valuable for feedback and peer credibility, but Phase 3 is explicit: your paying buyer is a healthcare practice owner, real estate agent, or professional firm partner who can quantify a cost — not another automation developer. Peer feedback is genuinely useful once (you've now had it twice), but continuing to outreach into the same \"fellow builder\" pool will keep generating nice conversations and zero discovery calls. Today's fresh batch needs to go to actual ICP-fit prospects, not more developers."
+      }
+    },
+    {
+      "id": "s3",
+      "number": "03",
+      "title": "Today's MITs",
+      "subtitle": "Three, in this order — because teaching starts at 10:00am and there isn't room for five",
+      "mits": [
+        {
+          "time_block": "MIT 1 · First thing, before anything else opens",
+          "flag": "Oldest open loop",
+          "task": "Reply to Timothy & Shivateja — and ask one direct question",
+          "description": "Thank both for the feedback. Then, in the same message, ask one specific, low-pressure question that tests for referral value without pitching them directly: \"Do you know any business owners — clinics, agencies, service firms — who've mentioned wanting faster lead response or less manual admin? Happy to return the favor if you ever need eyes on something.\" This converts two peer conversations into a possible referral channel instead of a dead end.",
+          "why_priority": "Why first: this is the oldest unanswered message on the board — Phase 7's trigger rule says a warm reply older than a few hours risks going cold. It already went several days.",
+          "is_protected": true
+        },
+        {
+          "time_block": "MIT 2 · Deep Work Block — 10-min setup cap",
+          "flag": "3rd day carried",
+          "task": "Build the notification module — finish, don't restart",
+          "description": "Add the alert step (email or Slack/WhatsApp ping) that fires when the automation catches a new lead. No folder reorganizing, no re-reading old documentation first — open the existing Make.com scenario and add the module directly. If setup or review of anything takes more than 10 minutes, stop and build anyway.",
+          "why_priority": "Why the cap: this exact task has been \"in progress\" since Jul 7, and Week 1's review already identified planning/setup as the thing that swallows this block. The rule this time is stricter — 10 minutes, not 15.",
+          "is_protected": true
+        },
+        {
+          "time_block": "MIT 3 · Late morning / before class prep",
+          "flag": "ICP correction",
+          "task": "Send 5–8 fresh outreach messages — to actual ICP, not developers",
+          "description": "Target owners/operators in Phase 3's ranked verticals — healthcare practices, real estate agencies, or small professional firms — not automation engineers. One line personalized to a real pain signal you can see on their profile or page (slow response time, manual admin complaints, growth without systems). Log the ICP category for each send this time, since that step was skipped in the last batch.",
+          "why_priority": "Why this matters more than volume: 7 sends to peers produced 2 friendly replies and 0 pipeline. The goal today is fit, not count.",
+          "is_protected": false
+        }
+      ],
+      "additional_requirements": {
+        "title": "Also today (not MITs, but non-negotiable)",
+        "description": "DIT class prep + delivery around 9:35–10:00am as scheduled. Pick tomorrow's (Day #14, Friday — last day of Week 2) MIT list tonight before sleeping — this single habit was the strongest predictor of a good day in Week 1."
+      }
+    },
+    {
+      "id": "s4",
+      "number": "04",
+      "title": "Trigger Rules for Today",
+      "subtitle": "Two new rules, built directly from this week's evidence",
+      "triggers": [
+        {
+          "condition_if": "A reply to outreach comes from another automation engineer/developer, not a business owner",
+          "action_then": "Thank them, ask if they know a referral in your ICP (see MIT 1), but do not log it as a pipeline prospect — log it separately as \"peer network.\""
+        },
+        {
+          "condition_if": "Any setup, review, or \"just checking the old code first\" task appears during the notification module build",
+          "action_then": "10-minute visible timer. When it rings, close that tab and add the module directly — even if the review felt incomplete."
+        },
+        {
+          "condition_if": "It's 9:25am and MIT 1 or MIT 2 isn't done",
+          "action_then": "Stop, prep for DIT, and resume the unfinished MIT immediately after class — don't let class prep quietly absorb the remaining time."
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "number": "05",
+      "title": "Live Progress",
+      "subtitle": "Click the checkboxes above in Section 3 — these bars move automatically",
+      "progress_metrics": [
+        { "label": "MITs completed", "percentage": "0%" },
+        { "label": "Week 2 elapsed", "percentage": "86%" },
+        { "label": "Open loops closed today", "percentage": "0%" }
+      ]
+    },
+    {
+      "id": "s7",
+      "number": "07",
+      "title": "Looking to Day #14 (Friday, Jul 17 — Last Day of Week 2)",
+      "subtitle": "One thing to decide tonight",
+      "gold_box": {
+        "title": "What Day #14 Needs From Today",
+        "content": "If MIT 1 lands a discovery-call opening from either Timothy or Shivateja's network, Day #14's first block becomes proposing two call times — don't let it wait for the weekly review. If the notification module finishes today, Day #14 can be genuinely light: LinkedIn profile optimization (still carried from Week 1) plus prepping honest numbers for Friday's real weekly review. Pick tonight's MIT list before sleeping, using whichever of these two paths actually happened."
+      }
+    }
+  ]
+}
 
 ]
